@@ -1,0 +1,91 @@
+@font-face {
+	font-family: copperplatebold;
+	src: url('../fonts/copperplategothic-bold.ttf');
+}
+@font-face {
+	font-family: helvetica;
+	src: url(../fonts/helvetica.ttf);
+}
+.container {
+	max-width: 1100px;
+	height: auto;
+	margin: 0 auto;
+	font-family: helvetica;
+	/*border: 1px solid black;*/
+}
+.container .image-container {
+	display: block;
+	width: 100%;
+	height: 200px;
+	/*border: 1px solid black;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
+}
+.container .image-container .inner {
+	display: block;
+	height: 100%;
+	width: 700px;
+	margin: 0 auto;
+	/*border: 1px solid green;*/
+}
+
+.container .image-container img {
+	margin-left: 50px;
+}
+
+.container article .title {
+	font-family: copperplatebold;
+	color: DarkBlue;
+}
+.container article p {
+	text-align: justify;
+	font-size: 18px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+.container article h5, i{
+	text-align: justify;
+}
+
+.functions {
+	width: parent;
+	height: 50px;
+	display: block;
+	/*border: 1px solid black;*/
+	margin-bottom: 10px;
+}
+.functions button {
+	font-weight: bold;
+	float: right;
+	transition-duration: 0.5s;
+}
+.functions button:hover {
+	background: #3CB371;
+	font-weight: bold;
+}
+@media print {
+	button {
+		display: none;
+	}
+}
+
+
+
+font {
+	font-family: helvetica;
+}
+
+
+/* Font Style */
+/* ---------------------------- */
+
+.copperplate-gothic-bold {
+	font-family: copperplatebold;
+}
+
+.blue {
+	color: #0000FF
+}
